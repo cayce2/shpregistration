@@ -19,10 +19,10 @@ if ($conn->connect_error) {
     . $conn->connect_error);
 }
 
-// Creating a database named geekdata
-$sql = "CREATE DATABASE geekdata";
+// Creating a database named registrations
+$sql = "CREATE DATABASE registrations";
 if ($conn->query($sql) === TRUE) {
-  echo "Database with name SHP";
+  echo "Database with name registrations";
 } else {
   echo "Error: " . $conn->error;
 }
