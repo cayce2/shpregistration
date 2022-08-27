@@ -11,30 +11,30 @@
 <p>
       <label for="firstName">First Name:</label>
       <input type="text" name="first_name" id="firstName">
-      </p>
+ </p>
 
       
 <p>
       <label for="lastName">Last Name:</label>
       <input type="text" name="last_name" id="lastName">
-      </p>
+</p>
 
       
 <p>
       <label for="lastName">Jumuia:</label>
       <input type="text" name="last_name" id="lastName">
-      </p>
+</p>
 
 <p>
       <label for="Gender">Gender:</label>
       <input type="text" name="gender" id="Gender">
-      </p>
+</p>
 
       
 <p>
       <label for="Address">Outstation:</label>
       <input type="text" name="address" id="Address">
-      </p>
+</p>
 
 
       <input type="submit" value="Submit">
