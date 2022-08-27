@@ -22,7 +22,7 @@ if ($conn->connect_error) {
 // Creating a database named geekdata
 $sql = "CREATE DATABASE geekdata";
 if ($conn->query($sql) === TRUE) {
-  echo "Database with name geekdata";
+  echo "Database with name SHP";
 } else {
   echo "Error: " . $conn->error;
 }
